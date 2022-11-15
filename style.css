@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    background-color: rgba(137, 43, 226, 0.13);
+    width: 80%;
+    border-radius: 7px;
+    position: relative;
+
+}
+
+.message-box {
+    background-color: rgba(17, 172, 3, 0.61);
+    margin: 5%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.986);
+    text-transform: capitalize;
+    z-index: 1;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    padding: 0.8rem 2rem;
+    background-color: blue;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+#yes {
+    position: absolute;
+    left: 20%;
+    z-index: 11;
+}
+
+#no {
+    background-color: crimson;
+    position: absolute;
+    left: 70%;
+    z-index: 111;
+}
+
+img {
+    height: 7.5rem;
+    position: absolute;
+    border-radius: 12px;
+}
